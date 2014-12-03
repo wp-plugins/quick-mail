@@ -20,7 +20,7 @@ Saves message and subject on form to send repeat messages.
 
 == Installation ==
 
-1. Download the plugin and unpack in your /wp-content/plugins/ directory
+1. Download the plugin and unpack in your /wp-content/plugins directory
 
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
@@ -48,13 +48,17 @@ Saves message and subject on form to send repeat messages.
 
 == Changelog ==
 
+= 1.0.2 =
+* Minimum role can changed by adding a filter. Props: [@lumpysimon](https://github.com/lumpysimon/)
+* Fixed typos.
+
 = 1.0.1 =
 * First version on WordPress Plugin Repository
 
 == Upgrade Notice ==
 
-= 1.01 =
-* No upgrades are available
+= 1.02 =
+* Upgrade if you want to add a filter to change the minimum role.
 
 == License ==
 

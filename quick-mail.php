@@ -2,7 +2,7 @@
 /*
 Plugin Name: Quick Mail
 Description: send email with attachment from WordPress
-Version: 1.0.1
+Version: 1.0.2
 Author: Mitchell D. Miller
 Author URI: http://wheredidmybraingo.com/
 Plugin URI: http://wheredidmybraingo.com/wordpress-plugin-quick-mail-send-email-from-wordpress/
@@ -145,7 +145,7 @@ function init_quick_mail() {
 
 function init_quick_mail_menu() {
 	$title = __( 'Quick Mail', 'quick-mail' );
-	$page = add_submenu_page( 'tools.php', $title, $title, 'publish_posts', 'quick_mail_form', 'quick_mail_form' );
+	$page = add_submenu_page( 'tools.php', $title, $title, apply_filters( 'quick_mail_user_capability', 'publish_posts' ), 'quick_mail_form', 'quick_mail_form' );
 	add_action( 'admin_print_styles-' . $page, 'init_quick_mail_style' );
 } // end init_quick_mail_menu
 
