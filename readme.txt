@@ -3,8 +3,8 @@ Contributors: brainiac
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4AAGBFXRAPFJY
 Tags: email, admin, mail, attachment, Spanish
 Requires at least: 2.9.0
-Tested up to: 4.2.2
-Stable tag: 1.2.1
+Tested up to: 4.2.3
+Stable tag: 1.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,6 +67,10 @@ Site options for administrators to hide their profile, and limit access to user 
 2. Selecting recent email addresses
 
 == Changelog ==
+
+= 1.2.1 =
+* Status messages must be dismissed by user. Messages vanished after 4 seconds in previous versions.
+* Tested with WordPress 4.23
 
 = 1.2.1 =
 * Maintenance release.
