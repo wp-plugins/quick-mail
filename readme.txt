@@ -70,7 +70,7 @@ Site options for administrators to hide their profile, and limit access to user 
 
 = 1.2.2 =
 * Status messages must be dismissed by user. Messages vanished after 4 seconds in previous versions.
-* Tested with WordPress 4.23
+* Tested with WordPress 4.2.3
 
 = 1.2.1 =
 * Maintenance release.
