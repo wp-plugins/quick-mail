@@ -2,7 +2,7 @@
 Contributors: brainiac
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4AAGBFXRAPFJY
 Tags: email, admin, mail, attachment, Spanish
-Requires at least: 2.9.0
+Requires at least: 4.2
 Tested up to: 4.2.3
 Stable tag: 1.2.2
 License: GPLv2 or later
@@ -32,7 +32,7 @@ Site options for administrators to hide their profile, and limit access to user 
 
 * See [How to Send Email from WordPress Admin](http://wheredidmybraingo.com/quick-mail-wordpress-plugin-update-send-email-to-site-users/) for an introduction.
 
-* See [Quick Mail 1.2.0 Sends HTML Mail](http://wheredidmybraingo.com/quick-mail-1-2-0-sends-html-mail/) for update info.
+* See [Get Quick Mail 1.2.2](http://wheredidmybraingo.com/get-quick-mail-1-2-2/) for update info.
 
 == Installation ==
 
@@ -70,7 +70,8 @@ Site options for administrators to hide their profile, and limit access to user 
 
 = 1.2.2 =
 * Status messages must be dismissed by user. Messages vanished after 4 seconds in previous versions.
-* Tested with WordPress 4.2.3
+* Improved data entry on phones.
+* Tested with WordPress 4.23
 
 = 1.2.1 =
 * Maintenance release.
@@ -107,6 +108,11 @@ Site options for administrators to hide their profile, and limit access to user 
 
 == Upgrade Notice ==
 
+= 1.2.2 =
+* Upgrade recommended.
+* Replaced vanishing notices with dismissible notices.
+* Improved data entry on phones.
+
 = 1.2.1 =
 * Upgrade recommended.
 * Fixed three bugs.
@@ -137,4 +143,3 @@ This plugin is free for personal or commercial use. You can thank me and support
 * A .pot file is included for translators. See [WordPress Translation Tools](https://make.wordpress.org/polyglots/handbook/tools/) for more info.
 
 * Includes Spanish translation.
-

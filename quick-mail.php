@@ -5,7 +5,7 @@ Description: Adds Quick Mail to Tools menu. Send an email with attachment using 
 Version: 1.2.2
 Author: Mitchell D. Miller
 Author URI: http://wheredidmybraingo.com/about/
-Plugin URI: http://wheredidmybraingo.com/quick-mail-1-2-0-sends-html-mail/
+Plugin URI: http://wheredidmybraingo.com/get-quick-mail-1-2-2/
 Text Domain: quick-mail
 Domain Path: /lang
 */
